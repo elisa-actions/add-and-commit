@@ -18,7 +18,7 @@ You can use this GitHub Action to commit changes made in your workflow run direc
 Add a step like this to your workflow:
 
 ```yaml
-- uses: EndBug/add-and-commit@v9 # You can change this to use a specific version.
+- uses: EndBug/add-and-commit@main # You can change this to use a specific version.
   with:
     # The arguments for the `git add` command (see the paragraph below for more info)
     # Default: '.'
